@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("./Anime\ \(13\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -30px -40px;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.top_header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#logo {
+  font-size: 100px;
+  font-weight: 900;
+  font-style: oblique;
+  color: white;
+}
+#main_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 30px;
+  font-style: inherit;
+  color: darkred;
+  font-weight: bold;
+}
+#main_nav li {
+  margin-right: 80px;
+}
+.second {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.second h2 {
+  font-size: 35px;
+  color: bisque;
+  margin-right: 80%;
+}
+.third {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.third p {
+  font-size: 20px;
+  margin-left: 60vw;
+}
